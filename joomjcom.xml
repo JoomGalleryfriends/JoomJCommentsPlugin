@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="joomgallery" method="upgrade">
+  <name>PLG_JOOMGALLERY_JOOMJCOM</name>
+  <author>Chraneco; since 2019 JoomGallery::Project Team</author>
+  <creationDate>2019/04/15</creationDate>
+  <copyright>Copyright (C) 2010 - 2019 Open Source Matters. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorUrl>www.joomgalleryfriends.net</authorUrl>
+  <version>3.0.0</version>
+  <description>PLG_JOOMGALLERY_JOOMJCOM_DESC</description>
+  <files>
+    <filename plugin="joomjcom">joomjcom.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages folder="language">
+    <language tag="de-DE">de-DE/de-DE.plg_joomgallery_joomjcom.ini</language>
+    <language tag="de-DE">de-DE/de-DE.plg_joomgallery_joomjcom.sys.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_joomgallery_joomjcom.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_joomgallery_joomjcom.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="image" type="radio" default="1" label="PLG_JOOMGALLERY_JOOMJCOM_IMAGE_COMMENTS" description="PLG_JOOMGALLERY_JOOMJCOM_IMAGE_COMMENTS_DESCRIPTION">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+        <field name="category" type="radio" default="1" label="PLG_JOOMGALLERY_JOOMJCOM_CATEGORY_COMMENTS" description="PLG_JOOMGALLERY_JOOMJCOM_CATEGORY_COMMENTS_DESCRIPTION">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>
