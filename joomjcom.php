@@ -36,7 +36,7 @@ class plgJoomgalleryJoomJCom extends JPlugin
    * @return  void
    * @since   1.5
    */
-  public function plgJoomgalleryJoomJCom(&$subject, $params)
+  public function __construct(&$subject, $params)
   {
     parent::__construct($subject, $params);
 
