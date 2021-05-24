@@ -1,10 +1,9 @@
 <?php
-// $HeadURL: https://joomgallery.org/svn/joomgallery/JG-2.0/Plugins/JoomJComments/trunk/joomjcom.php $
-// $Id: joomjcom.php 3660 2012-02-21 15:44:47Z chraneco $
 /******************************************************************************\
-**   JoomGallery Plugin 'JoomJCom' 2.0 BETA                                   **
+**   JoomGallery Plugin 'JoomJCom'                                            **
 **   By: JoomGallery::ProjectTeam                                             **
 **   Copyright (C) 2009 - 2012  Patrick Alt                                   **
+**   Copyright (C) 2019 - 2021  JoomGallery::ProjectTeam                      **
 **   Released under GNU GPL Public License                                    **
 **   License: http://www.gnu.org/copyleft/gpl.html or have a look             **
 **   at administrator/components/com_joomgallery/LICENSE.TXT                  **
@@ -37,7 +36,7 @@ class plgJoomgalleryJoomJCom extends JPlugin
    * @return  void
    * @since   1.5
    */
-  public function plgJoomgalleryJoomJCom(&$subject, $params)
+  public function __construct(&$subject, $params)
   {
     parent::__construct($subject, $params);
 
