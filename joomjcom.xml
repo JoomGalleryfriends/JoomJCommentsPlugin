@@ -2,11 +2,11 @@
 <extension version="3.0" type="plugin" group="joomgallery" method="upgrade">
   <name>PLG_JOOMGALLERY_JOOMJCOM</name>
   <author>Chraneco; since 2019 JoomGallery::Project Team</author>
-  <creationDate>2019/04/15</creationDate>
-  <copyright>Copyright (C) 2010 - 2019 Open Source Matters. All rights reserved.</copyright>
+  <creationDate>2021/05/24</creationDate>
+  <copyright>Copyright (C) 2010 - 2021 Open Source Matters. All rights reserved.</copyright>
   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
   <authorUrl>www.joomgalleryfriends.net</authorUrl>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
   <description>PLG_JOOMGALLERY_JOOMJCOM_DESC</description>
   <files>
     <filename plugin="joomjcom">joomjcom.php</filename>
